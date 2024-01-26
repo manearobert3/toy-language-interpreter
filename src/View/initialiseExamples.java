@@ -288,12 +288,31 @@ public class initialiseExamples {
                 listOfErrors.add(e.getMessage());
                 System.out.println(lastExampleRun);
             }
-               // TextMenu menu = new TextMenu();
+            try{
+            IStmt example20 = new CompStmt(new VarDeclStmt("v1",new IntType()),new CompStmt(
+                    new AssignStmt("v1", new ValueExp(new IntValue(2))),
+                    new CompStmt(new VarDeclStmt("v2",new IntType()),new CompStmt(
+                            new AssignStmt("v2", new ValueExp(new IntValue(3))),
+                            new IfStmt(
+                                    new ValueExp(new BoolValue(true)),
+                                    new PrintStmt(new MulExp(new VarExp("v1"), new VarExp("v2"))),
+                                    new PrintStmt(new VarExp("v1"))
+                            )
+                    )))
+            );
 
 
-
-
-                // menu.show();
+                example20.typecheck(new MyDictionary<>());
+                PrgState prg20 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example20, new MyDictionary<>(), new MyHeap());
+                IRepository repo20 = new Repository(prg20, "log20.txt");
+                Controller ctr20 = new Controller(repo20, true);
+                listOfExamples.add(example20);
+                listOfControllers.add(ctr20);
+            } catch (ToyLanguageException e) {
+                System.out.println(e.getMessage());
+                listOfErrors.add(e.getMessage());
+                System.out.println(lastExampleRun);
+            }
 
         }
     }
