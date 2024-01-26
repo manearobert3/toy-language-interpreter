@@ -1,0 +1,779 @@
+ID:13
+ExeStack:
+(int v ,(v = 20  ,(Wait(10),Print v * 10  )))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+int v 
+(v = 20  ,(Wait(10),Print v * 10  ))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+int v 
+(v = 20  ,(Wait(10),Print v * 10  ))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(v = 20  ,(Wait(10),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(v = 20  ,(Wait(10),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+v = 20  
+(Wait(10),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+v = 20  
+(Wait(10),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(Wait(10),Print v * 10  )
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(Wait(10),Print v * 10  )
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(10)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(10)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 10  
+Wait(9)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 10  
+Wait(9)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(9)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(9)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 9  
+Wait(8)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 9  
+Wait(8)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(8)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(8)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 8  
+Wait(7)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 8  
+Wait(7)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(7)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(7)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 7  
+Wait(6)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 7  
+Wait(6)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(6)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(6)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 6  
+Wait(5)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 6  
+Wait(5)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(5)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(5)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 5  
+Wait(4)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 5  
+Wait(4)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(4)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(4)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 4  
+Wait(3)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 4  
+Wait(3)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(3)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(3)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 3  
+Wait(2)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 3  
+Wait(2)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(2)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(2)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 2  
+Wait(1)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 2  
+Wait(1)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(1)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(1)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 1  
+Wait(0)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print 1  
+Wait(0)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(0)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Wait(0)
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print v * 10  
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+SymTable:
+v --> 20 
+Out:
+10 
+9 
+8 
+7 
+6 
+5 
+4 
+3 
+2 
+1 
+200 
+FileTable:
+Heap:
+

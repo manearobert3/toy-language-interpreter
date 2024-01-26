@@ -13,14 +13,9 @@ import Controller.Controller;
 import Repository.IRepository;
 import Repository.Repository;
 import Values.StringValue;
-import Values.Value;
-import View.TextMenu;
 import Controller.ToyLanguageException;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Dictionary;
 import java.util.List;
 public class initialiseExamples {
     private static List<IStmt> listOfExamples=new ArrayList<>();
@@ -288,76 +283,32 @@ public class initialiseExamples {
                 listOfErrors.add(e.getMessage());
                 System.out.println(lastExampleRun);
             }
-               // TextMenu menu = new TextMenu();
-
+            IStmt example16 = new CompStmt (new VarDeclStmt("v",new IntType()), new CompStmt(
+                    new AssignStmt("v", new ValueExp(new IntValue(20))),
+                    new CompStmt(
+                            new WaitStmt(10),
+                            new PrintStmt(new ArithExp('*', new VarExp("v"), new ValueExp(new IntValue(10))))
+                    ))
+            );
 
             try {
-                IStmt ex13 = new CompStmt(new VarDeclStmt("v", new IntType()),new CompStmt(
-                        new AssignStmt("v", new ValueExp(new IntValue(10))),
-                        new CompStmt(new forkStmt(
-                                        new CompStmt(
-                                                new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ValueExp(new IntValue(1)))),
-                                                new CompStmt(
-                                                        new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ValueExp(new IntValue(1)))),
-                                                        new PrintStmt(new VarExp("v"))
-                                                )
-                                        )
-                                ),
-                                new CompStmt(
-                                        new SleepStmt(10),
-                                        new PrintStmt(new ArithExp('*', new VarExp("v"), new ValueExp(new IntValue(10))))
-                                )
-                        ))
-                );
-                lastExampleRun = "ex13:" + ex13.toString();
-                ex13.typecheck(new MyDictionary<>());
-                PrgState prg13 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), ex13, new MyDictionary<>(), new MyHeap());
-                IRepository repo13 = new Repository(prg13, "log13.txt");
-                Controller ctr13 = new Controller(repo13, true);
-                listOfExamples.add(ex13);
-                listOfControllers.add(ctr13);
+                example16.typecheck(new MyDictionary<>());
+                PrgState prg16 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example16, new MyDictionary<>(), new MyHeap());
+                IRepository repo16 = new Repository(prg16, "log16.txt");
+                Controller ctr16 = new Controller(repo16, true);
+                listOfExamples.add(example16);
+                listOfControllers.add(ctr16);
             } catch (ToyLanguageException e) {
                 System.out.println(e.getMessage());
                 listOfErrors.add(e.getMessage());
                 System.out.println(lastExampleRun);
             }
+        }
 
-            IStmt example15 = new CompStmt(new VarDeclStmt("v", new IntType()),
-                    new CompStmt(
 
-                    new AssignStmt("v", new ValueExp(new IntValue(0))),
-                    new CompStmt(
-                            new WhileStmt(
-                                    new RelationalExp("<", new VarExp("v"), new ValueExp(new IntValue(3))),
-                                    new CompStmt(
-                                            new forkStmt(
-                                                    new CompStmt(
-                                                            new PrintStmt(new VarExp("v")),
-                                                            new AssignStmt("v", new ArithExp('+', new VarExp("v"), new ValueExp(new IntValue(1))))
-                                                    )
-                                            ),
-                                            new AssignStmt("v", new ArithExp('+', new VarExp("v"), new ValueExp(new IntValue(1))))
-                                    )
-                            ),
-                            new CompStmt(
-                                    new SleepStmt(5),
-                                    new PrintStmt(new ArithExp('*', new VarExp("v"), new ValueExp(new IntValue(10))))
-                            )
-                    ))
-            );
 
-            try {
-                example15.typecheck(new MyDictionary<>());
-                PrgState prg15 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example15, new MyDictionary<>(), new MyHeap());
-                IRepository repo15 = new Repository(prg15, "log15.txt");
-                Controller ctr15 = new Controller(repo15, true);
-                listOfExamples.add(example15);
-                listOfControllers.add(ctr15);
-            } catch (ToyLanguageException e) {
-                System.out.println(e.getMessage());
-            }
 
         }
-    }
+
     }
 

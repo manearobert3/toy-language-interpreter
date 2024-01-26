@@ -4,12 +4,15 @@ import ADT.MyIDictionary;
 import ADT.MyIStack;
 import ADT.PrgState;
 import Controller.ToyLanguageException;
+import Expressions.Expression;
+import Expressions.ValueExp;
 import Types.Type;
+import Values.IntValue;
 
-public class SleepStmt implements IStmt {
+public class WaitStmt implements IStmt {
     private final Integer number;
 
-    public SleepStmt(Integer number) {
+    public WaitStmt(Integer number) {
         this.number = number;
     }
 
@@ -17,7 +20,9 @@ public class SleepStmt implements IStmt {
     public PrgState execute(PrgState state) throws ToyLanguageException {
         MyIStack<IStmt> exeStack = state.getExeStack();
         if (number > 0) {
-            exeStack.push(new SleepStmt(number - 1));
+            exeStack.push(new WaitStmt(number - 1));
+            exeStack.push(new PrintStmt(new ValueExp(new IntValue(number))));
+
             state.setExeStack(exeStack);
         }
         return null;
@@ -25,7 +30,7 @@ public class SleepStmt implements IStmt {
 
     @Override
     public IStmt deepCopy() {
-        return new SleepStmt(number);
+        return new WaitStmt(number);
     }
 
     @Override
@@ -34,6 +39,6 @@ public class SleepStmt implements IStmt {
     }
     @Override
     public String toString(){
-        return "Sleep("+number+")";
+        return "Wait("+number+")";
     }
 }
