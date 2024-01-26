@@ -1,0 +1,361 @@
+ID:13
+ExeStack:
+(boolean b ,(int c ,(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c ))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+boolean b 
+(int c ,(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+boolean b 
+(int c ,(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(int c ,(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))))
+SymTable:
+b --> false
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(int c ,(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))))
+SymTable:
+b --> false
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+int c 
+(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c ))))
+SymTable:
+b --> false
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+int c 
+(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c ))))
+SymTable:
+b --> false
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c ))))
+SymTable:
+b --> false
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(b = true ,(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c ))))
+SymTable:
+b --> false
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+b = true 
+(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))
+SymTable:
+b --> false
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+b = true 
+(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))
+SymTable:
+b --> false
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(c = (b) ? 100  : 200 ,(Print c ,(c = (false) ? 100  : 200 ,Print c )))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = (b) ? 100  : 200 
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = (b) ? 100  : 200 
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+if (b): c = 100  else c = 200  
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+if (b): c = 100  else c = 200  
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = 100  
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = 100  
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 100 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(Print c ,(c = (false) ? 100  : 200 ,Print c ))
+SymTable:
+b --> true
+c --> 100 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print c 
+(c = (false) ? 100  : 200 ,Print c )
+SymTable:
+b --> true
+c --> 100 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print c 
+(c = (false) ? 100  : 200 ,Print c )
+SymTable:
+b --> true
+c --> 100 
+Out:
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(c = (false) ? 100  : 200 ,Print c )
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+(c = (false) ? 100  : 200 ,Print c )
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = (false) ? 100  : 200 
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = (false) ? 100  : 200 
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+if (false): c = 100  else c = 200  
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+if (false): c = 100  else c = 200  
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = 200  
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+c = 200  
+Print c 
+SymTable:
+b --> true
+c --> 100 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print c 
+SymTable:
+b --> true
+c --> 200 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+Print c 
+SymTable:
+b --> true
+c --> 200 
+Out:
+100 
+FileTable:
+Heap:
+
+ID:13
+ExeStack:
+SymTable:
+b --> true
+c --> 200 
+Out:
+100 
+200 
+FileTable:
+Heap:
+
