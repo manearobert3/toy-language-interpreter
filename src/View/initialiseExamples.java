@@ -288,12 +288,53 @@ public class initialiseExamples {
                 listOfErrors.add(e.getMessage());
                 System.out.println(lastExampleRun);
             }
-               // TextMenu menu = new TextMenu();
-
-
-
-
-                // menu.show();
+            IStmt ex19 = new CompStmt(
+                    new VarDeclStmt("a", new IntType()),
+                    new CompStmt(
+                            new VarDeclStmt("b", new IntType()),
+                            new CompStmt(
+                                    new VarDeclStmt("c", new IntType()),
+                                    new CompStmt(
+                                            new AssignStmt("a", new ValueExp(new IntValue(1))),
+                                            new CompStmt(
+                                                    new AssignStmt("b", new ValueExp(new IntValue(2))),
+                                                    new CompStmt(
+                                                            new AssignStmt("c", new ValueExp(new IntValue(5))),
+                                                            new CompStmt(
+                                                                    new SwitchStmt(
+                                                                            new ArithExp('*', new VarExp("a"), new ValueExp(new IntValue(10))),
+                                                                            new ArithExp('*', new VarExp("b"), new VarExp("c")),
+                                                                            new ValueExp(new IntValue(10)),
+                                                                            new CompStmt(
+                                                                                    new PrintStmt(new VarExp("a")),
+                                                                                    new PrintStmt(new VarExp("b"))
+                                                                            ),
+                                                                                    new CompStmt(
+                                                                                            new PrintStmt(new ValueExp(new IntValue(100))),
+                                                                                            new PrintStmt(new ValueExp(new IntValue(200)))
+                                                                                    ),
+                                                                                    new PrintStmt(new ValueExp(new IntValue(300)))),
+                                                                    new PrintStmt(new ValueExp(new IntValue(300)))
+                                                            )
+                                                    )
+                                            )
+                                    )
+                            )
+                    )
+            );
+            try{
+            lastExampleRun = "ex19:" + ex19.toString();
+            ex19.typecheck(new MyDictionary<>());
+            PrgState prg19 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), ex19, new MyDictionary<>(), new MyHeap());
+            IRepository repo19 = new Repository(prg19, "log19.txt");
+            Controller ctr19 = new Controller(repo19, true);
+            listOfExamples.add(ex19);
+            listOfControllers.add(ctr19);
+        } catch (ToyLanguageException e) {
+            System.out.println(e.getMessage());
+            listOfErrors.add(e.getMessage());
+            System.out.println(lastExampleRun);
+        }
 
         }
     }
