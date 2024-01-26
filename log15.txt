@@ -1,0 +1,828 @@
+ID:14
+ExeStack:
+(int v ,(v = 0  ,(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  ))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+int v 
+(v = 0  ,(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  )))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+int v 
+(v = 0  ,(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  )))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(v = 0  ,(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  )))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(v = 0  ,(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  )))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = 0  
+(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = 0  
+(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )},(Sleep(5),Print v * 10  ))
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 0 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 0 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:15
+ExeStack:
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 1 
+Out:
+0 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 1 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Fork((Print v ,v = v + 1  )),v = v + 1  )
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 1 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:16
+ExeStack:
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Fork((Print v ,v = v + 1  ))
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+v = v + 1  
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+(Print v ,v = v + 1  )
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+WhileStmt{RelationalExpression(v < 3 ,(Fork((Print v ,v = v + 1  )),v = v + 1  )}
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+Print v 
+v = v + 1  
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+(Sleep(5),Print v * 10  )
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+v = v + 1  
+SymTable:
+v --> 2 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(5)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:17
+ExeStack:
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(5)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(4)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(4)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(3)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(3)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(2)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(2)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(1)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(1)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(0)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Sleep(0)
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+Print v * 10  
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+FileTable:
+Heap:
+
+ID:14
+ExeStack:
+SymTable:
+v --> 3 
+Out:
+0 
+1 
+2 
+30 
+FileTable:
+Heap:
+
