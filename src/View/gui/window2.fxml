@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="671.0" prefWidth="1041.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.gui.SecondWindowController">
+   <children>
+      <TextField fx:id="NrPrgStates" layoutX="546.0" layoutY="125.0" prefHeight="25.0" prefWidth="190.0" AnchorPane.topAnchor="125.0" />
+      <TableView fx:id="HeapTable" layoutX="59.0" layoutY="124.0" prefHeight="200.0" prefWidth="149.0" AnchorPane.topAnchor="124.0">
+        <columns>
+          <TableColumn fx:id="heapAdress" prefWidth="75.0" text="Adress" />
+          <TableColumn fx:id="heapValue" prefWidth="75.0" text="Value" />
+        </columns>
+      </TableView>
+      <Text layoutX="98.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HeapTable" AnchorPane.bottomAnchor="598.048828125" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="872.27001953125" AnchorPane.topAnchor="89.8134765625">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <ListView fx:id="ListPrgStatesIdent" layoutX="801.0" layoutY="111.0" prefHeight="184.0" prefWidth="79.0" AnchorPane.rightAnchor="161.0" AnchorPane.topAnchor="111.0" />
+      <Text layoutX="809.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PrgStates" AnchorPane.bottomAnchor="570.048828125" AnchorPane.leftAnchor="808.0" AnchorPane.rightAnchor="169.873046875" AnchorPane.topAnchor="80.8134765625">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <TableView fx:id="symTable" layoutX="318.0" layoutY="124.0" prefHeight="200.0" prefWidth="149.0" AnchorPane.topAnchor="124.0">
+        <columns>
+          <TableColumn fx:id="varName" prefWidth="75.0" text="Variable Name" />
+          <TableColumn fx:id="symTableValue" prefWidth="75.0" text="Value" />
+        </columns>
+      </TableView>
+      <Text layoutX="322.0" layoutY="107.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="SymTable of PrgState" AnchorPane.bottomAnchor="597.048828125" AnchorPane.leftAnchor="322.0" AnchorPane.rightAnchor="577.3056640625" AnchorPane.topAnchor="90.8134765625">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Button fx:id="runOneStepButton" layoutX="580.0" layoutY="170.0" mnemonicParsing="false" onAction="#runOneStepFunc" prefHeight="42.0" prefWidth="121.0" text="Run One Step" AnchorPane.topAnchor="170.0" />
+      <Button layoutX="602.0" layoutY="224.0" mnemonicParsing="false" onAction="#switchToPrimary" prefHeight="36.0" prefWidth="79.0" text="Go Back" AnchorPane.topAnchor="224.0" />
+      <Text fx:id="nameOfExample" layoutX="51.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Program:" textOrigin="TOP" wrappingWidth="888.13671875" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="101.86328125" AnchorPane.topAnchor="9.576171875">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Button fx:id="RunSelectedPrgStateButton" layoutX="894.0" layoutY="191.0" mnemonicParsing="false" onAction="#changeController" prefHeight="25.0" prefWidth="133.0" text="RunSelectedPrgState" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="191.0" />
+      <Text layoutX="552.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Program States" AnchorPane.bottomAnchor="562.048828125" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="311.70263671875" AnchorPane.topAnchor="88.8134765625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <HBox prefHeight="287.0" prefWidth="871.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ExeStack" wrappingWidth="62.38525390625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Text>
+            <ListView fx:id="ExeStackListView" onEditStart="#EditExeStack" prefHeight="187.0" prefWidth="185.0">
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+            </ListView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FileTable">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <ListView fx:id="FileTableListView" prefHeight="217.0" prefWidth="207.0">
+               <HBox.margin>
+                  <Insets left="120.0" />
+               </HBox.margin>
+            </ListView>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Out:" wrappingWidth="32.505859375">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <ListView fx:id="OutListView" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
