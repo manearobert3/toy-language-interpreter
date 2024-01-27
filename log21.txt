@@ -1,0 +1,1080 @@
+ID:1
+ExeStack:
+(Reference Type(int)  v1 ,(int cnt ,(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Reference Type(int)  v1 
+(int cnt ,(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Reference Type(int)  v1 
+(int cnt ,(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(int cnt ,(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))))
+SymTable:
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(int cnt ,(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))))
+SymTable:
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+int cnt 
+(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))))
+SymTable:
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+int cnt 
+(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))))
+SymTable:
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(New(v1,1 ),(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+New(v1,1 )
+(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+New(v1,1 )
+(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(newToySemaphore (cnt, ReadHeapExp(v1), 1 ),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+newToySemaphore (cnt, ReadHeapExp(v1), 1 )
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+newToySemaphore (cnt, ReadHeapExp(v1), 1 )
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 0 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))),(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+(ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))),(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+(ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))))
+(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+Fork((ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))))
+(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:3
+ExeStack:
+(ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+(ToyAcquire(cnt),(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:3
+ExeStack:
+(ToyAcquire(cnt),(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 10 );
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:2
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 10 );
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 1 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+Print ReadHeapExp(v1) 
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+Print ReadHeapExp(v1) 
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:2
+ExeStack:
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyAcquire(cnt)
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+(Print ReadHeapExp(v1) - 1  ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+Print ReadHeapExp(v1) - 1  
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+Print ReadHeapExp(v1) - 1  
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+ToyAcquire(cnt)
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:1
+ExeStack:
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 10 );
+(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 10 );
+(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 10 
+
+ID:3
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 100 
+
+ID:3
+ExeStack:
+(HeapStmt(v1,ReadHeapExp(v1) * 2 );,(Print ReadHeapExp(v1) ,ToyRelease (cnt)))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 100 
+
+ID:3
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 2 );
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 100 
+
+ID:3
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 2 );
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 100 
+
+ID:3
+ExeStack:
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+(Print ReadHeapExp(v1) ,ToyRelease (cnt))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+Print ReadHeapExp(v1) 
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+Print ReadHeapExp(v1) 
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+200 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+ToyRelease (cnt)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+200 
+FileTable:
+Heap:
+1 --> 200 
+
+ID:3
+ExeStack:
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+Out:
+10 
+9 
+200 
+FileTable:
+Heap:
+1 --> 200 
+

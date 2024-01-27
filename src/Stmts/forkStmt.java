@@ -20,12 +20,15 @@ public class forkStmt implements IStmt{
     public PrgState execute(PrgState state) throws ToyLanguageException {
         MyIStack<IStmt> newStack = new MyStack<>();
         MyIDictionary<String, Value> newSymTable = new MyDictionary<>();
+
         for (String key : state.getSymTable().getMap().keySet()){
             Value originalValue = state.getSymTable().lookUp(key);
             Value copiedValue = originalValue.deepCopy();
             newSymTable.put(key,copiedValue);
         }
-        return new PrgState(newStack,newSymTable,state.getOut(),statement,state.getFileTable(),state.getHeap());
+        PrgState newProgramStat=new PrgState(newStack,newSymTable,state.getOut(),statement,state.getFileTable(),state.getHeap(),state.getToySemaphoreTable());
+        newProgramStat.incrementID();
+        return newProgramStat;
 
     }
     @Override

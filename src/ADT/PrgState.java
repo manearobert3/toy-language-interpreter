@@ -11,23 +11,25 @@ import java.net.IDN;
 import java.nio.Buffer;
 
 public class PrgState{
-    private int id=0;
-    private static int incID=0;
+    private int id;
+    private static int incID=1;
     MyIStack<IStmt> exeStack;
     MyIDictionary<String, Value> symTable;
     MyIList<Value> out;
     MyIHeap heap;
     IStmt program;
+    private MyIToySemaphore<Triplet> toySemaphoreTable;
     private final MyIDictionary<String, BufferedReader> filetable;
        // IStmt originalProgram;
     public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
-            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap){
+            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyIToySemaphore<Triplet> toySemaphoreTable){
         exeStack=stk;
         symTable=symtbl;
         out = ot;
         filetable=filetbl;
         this.heap=heap;
-        this.id=incrementID();
+        this.id=1;
+        this.toySemaphoreTable=toySemaphoreTable;
         //originalProgram=deepCopy(prg);//recreate the entire original prg
         stk.push(prg);
         program = prg;
@@ -35,10 +37,15 @@ public class PrgState{
     public IStmt getStmt(){
         return program;
     }
-    public synchronized int incrementID(){
+    public synchronized void incrementID(){
         incID++;
-        return incID;
+        this.id=incID;
+
     }
+
+    public MyIToySemaphore<Triplet> getToySemaphoreTable() { return this.toySemaphoreTable; }
+
+    public void setToySemaphoreTable(MyIToySemaphore<Triplet> toySemaphoreTable) {  this.toySemaphoreTable = toySemaphoreTable; }
 
     public int getID(){
         return id;
