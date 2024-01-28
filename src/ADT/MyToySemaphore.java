@@ -27,7 +27,9 @@ public class MyToySemaphore<T> implements MyIToySemaphore<T>{
         this.semaphoreTable.put(address, value);
 
     }
-
+    public int getFreeLocation(){
+        return this.freeLocation.intValue();
+    }
     @Override
     public boolean exists(int address) {
         return this.semaphoreTable.containsKey(address);

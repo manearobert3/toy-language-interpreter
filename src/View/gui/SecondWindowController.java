@@ -70,6 +70,18 @@ public class SecondWindowController {
     private Controller originalController;
     private IStmt currentExample;
 
+
+    @FXML
+    private TableColumn<BarrierTable, String> indexSem;
+
+    @FXML
+    private TableColumn<BarrierTable, String> listSem;
+    @FXML
+    private TableView<BarrierTable> toySemaphoreTable;
+    @FXML
+    private TableColumn<BarrierTable, String> valueSem;
+
+
     @FXML
     private ListView<Integer> ListPrgStatesIdent;
     ObservableList<Pair<String,String>> listHeap= FXCollections.observableArrayList();
@@ -121,6 +133,11 @@ public class SecondWindowController {
         symTableValue.setCellValueFactory(cellData->new javafx.beans.property.SimpleStringProperty(cellData.getValue().getKey()));
         varName.setCellValueFactory(cellData->new javafx.beans.property.SimpleStringProperty(cellData.getValue().getValue()));
 
+        toySemaphoreTable.getColumns().clear();
+        indexSem.setCellValueFactory(new PropertyValueFactory<>("index"));
+        valueSem.setCellValueFactory(new PropertyValueFactory<>("value"));
+        listSem.setCellValueFactory(new PropertyValueFactory<>("listOfValues"));
+        toySemaphoreTable.getColumns().addAll(indexSem, valueSem, listSem);
 
     }
     public void switchToPrimary(ActionEvent event) throws IOException {
@@ -131,6 +148,21 @@ public class SecondWindowController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void updateSemaphore() throws IOException {
+        toySemaphoreTable.getItems().clear();
+        Map<Integer,Triplet> newMap = currentPrgState.getToySemaphoreTable().getContent();
+        for (Map.Entry<Integer, Triplet> k : currentPrgState.getToySemaphoreTable().getContent().entrySet()) {
+            String key = k.getKey().toString();
+            Triplet value = k.getValue();
+            Integer first = value.first;
+            List<Integer> second = value.second;
+            Integer third = value.third;
+
+            toySemaphoreTable.getItems().add(new BarrierTable(first,third,second));
+        }
+
+}
 
     public void setNumber(String exampleString, List<IStmt> listOfExamples, List<Controller>listOfControllers) throws IOException, InterruptedException, ToyLanguageException {
         RunSelectedPrgStateButton.disableProperty().bind(
@@ -207,6 +239,7 @@ public class SecondWindowController {
             setNrPrgStates();
             populateListViewPrgStsIdent();
             populateHeapTable();
+            updateSemaphore();
 
         }catch(ToyLanguageException e)
         {Alert alert = new Alert(Alert.AlertType.WARNING, e.getMessage()); alert.showAndWait();};

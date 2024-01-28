@@ -12,10 +12,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<GridPane alignment="CENTER" prefHeight="755.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.gui.SecondWindowController">
+<GridPane alignment="CENTER" prefHeight="755.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.gui.SecondWindowController">
   <columnConstraints>
     <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="250.0" />
     <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="254.0" />
+      <ColumnConstraints halignment="RIGHT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="225.0" />
       <ColumnConstraints halignment="RIGHT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="225.0" />
   </columnConstraints>
   <rowConstraints>
@@ -101,7 +102,7 @@
             <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
          </GridPane.margin>
       </TableView>
-      <TableView fx:id="symTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+      <TableView fx:id="symTable" prefHeight="190.0" prefWidth="211.0" GridPane.columnIndex="2">
         <columns>
           <TableColumn fx:id="varName" prefWidth="113.0" text="Var Name" />
           <TableColumn fx:id="symTableValue" prefWidth="112.0" text="Value" />
@@ -109,6 +110,13 @@
          <GridPane.margin>
             <Insets bottom="20.0" left="20.0" right="20.0" top="30.0" />
          </GridPane.margin>
+      </TableView>
+      <TableView fx:id="toySemaphoreTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="indexSem" prefWidth="75.0" text="index" />
+          <TableColumn fx:id="valueSem" prefWidth="75.0" text="value" />
+            <TableColumn fx:id="listSem" prefWidth="75.0" text="listOfValues" />
+        </columns>
       </TableView>
    </children>
 </GridPane>
