@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class MyToySemaphore<T> implements MyIToySemaphore<T>{
+public class MyCountSemaphore<T> implements MyICountSemaphore<T> {
     AtomicInteger freeLocation; // An int value that may be updated atomically
     Map<Integer, T> semaphoreTable;
-    public MyToySemaphore(){
+    public MyCountSemaphore(){
         this.semaphoreTable = new HashMap<>();
         this.freeLocation = new AtomicInteger(0);
     }

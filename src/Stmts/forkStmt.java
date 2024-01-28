@@ -2,13 +2,8 @@ package Stmts;
 
 import ADT.*;
 import Controller.ToyLanguageException;
-import Stmts.IStmt;
-import Types.BoolType;
 import Types.Type;
 import Values.Value;
-
-import java.io.BufferedReader;
-import java.util.Stack;
 
 public class forkStmt implements IStmt{
     private final IStmt statement;
@@ -26,7 +21,7 @@ public class forkStmt implements IStmt{
             Value copiedValue = originalValue.deepCopy();
             newSymTable.put(key,copiedValue);
         }
-        PrgState newProgramStat=new PrgState(newStack,newSymTable,state.getOut(),statement,state.getFileTable(),state.getHeap(),state.getToySemaphoreTable());
+        PrgState newProgramStat=new PrgState(newStack,newSymTable,state.getOut(),statement,state.getFileTable(),state.getHeap(),state.getCountSemaphoreTable());
         newProgramStat.incrementID();
         return newProgramStat;
 

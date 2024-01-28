@@ -7,6 +7,9 @@ import Types.IntType;
 import Types.Type;
 import Values.IntValue;
 import Values.Value;
+import javafx.util.Pair;
+
+import java.util.List;
 
 public class AcquireStmt implements IStmt {
     private final String var;
@@ -17,7 +20,7 @@ public class AcquireStmt implements IStmt {
     @Override
     public PrgState execute(PrgState state) throws ToyLanguageException {
         MyIDictionary<String, Value> symbolTable = state.getSymTable();
-        MyIToySemaphore<Triplet> semTable = state.getToySemaphoreTable();
+        MyICountSemaphore<Pair<Integer, List<Integer>>> semTable = state.getCountSemaphoreTable();
         MyIStack<IStmt> stack = state.getExeStack();
 
         if(!symbolTable.isDefined(this.var))
@@ -31,15 +34,15 @@ public class AcquireStmt implements IStmt {
         if(!semTable.exists(foundIndex))
             throw new ToyLanguageException("Index does not exist");
 
-        Triplet triplet = semTable.lookup(foundIndex);
-        if(triplet.first - triplet.third >= triplet.second.size()){
-            if(!triplet.second.contains(state.getID()))
-                triplet.second.add(state.getID());
+        Pair<Integer, List<Integer>> pair = semTable.lookup(foundIndex);
+        if(pair.getKey() > pair.getValue().size()){
+            if(!pair.getValue().contains(state.getID()))
+                pair.getValue().add(state.getID());
         } else
             stack.push(this);
 
         state.setExeStack(stack);
-        state.setToySemaphoreTable(semTable);
+        state.setCountSemaphoreTable(semTable);
         return null;
     }
 
@@ -53,6 +56,6 @@ public class AcquireStmt implements IStmt {
     }
     @Override
     public String toString() {
-        return "ToyAcquire(" + this.var + ")";
+        return "Acquire(" + this.var + ")";
     }
 }

@@ -4,26 +4,17 @@ import ADT.*;
 import Expressions.*;
 import Stmts.*;
 import Stmts.ToySemaphore.AcquireStmt;
-import Stmts.ToySemaphore.NewToySemaphoreStmt;
+import Stmts.ToySemaphore.NewSemaphoreStmt;
 import Stmts.ToySemaphore.ReleaseVarStmt;
-import Types.BoolType;
 import Types.IntType;
 import Types.RefType;
-import Types.StringType;
-import Values.BoolValue;
 import Values.IntValue;
 import Controller.Controller;
 import Repository.IRepository;
 import Repository.Repository;
-import Values.StringValue;
-import Values.Value;
-import View.TextMenu;
 import Controller.ToyLanguageException;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Dictionary;
 import java.util.List;
 public class initialiseExamples {
     private static List<IStmt> listOfExamples=new ArrayList<>();
@@ -298,7 +289,7 @@ public class initialiseExamples {
                                 new CompStmt(
                                         new NewHeapStmt("v1", new ValueExp(new IntValue(1))),
                                         new CompStmt(
-                                                new NewToySemaphoreStmt("cnt", new ReadHeapExp(new VarExp("v1")), new ValueExp(new IntValue(1))),
+                                                new NewSemaphoreStmt("cnt", new ReadHeapExp(new VarExp("v1"))),
                                                 new CompStmt(
                                                         new forkStmt(
                                                                 new CompStmt(
@@ -342,7 +333,7 @@ public class initialiseExamples {
                         )
                 );
                 example21.typecheck(new MyDictionary<>());
-                PrgState prg21 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example21, new MyDictionary<>(), new MyHeap(), new MyToySemaphore<>());
+                PrgState prg21 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example21, new MyDictionary<>(), new MyHeap(), new MyCountSemaphore<>());
                 IRepository repo21 = new Repository(prg21, "log21.txt");
                 Controller ctr21 = new Controller(repo21, true);
                 listOfExamples.add(example21);

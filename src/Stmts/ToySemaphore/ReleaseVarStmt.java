@@ -1,7 +1,7 @@
 package Stmts.ToySemaphore;
 
 import ADT.MyIDictionary;
-import ADT.MyIToySemaphore;
+import ADT.MyICountSemaphore;
 import ADT.PrgState;
 import ADT.Triplet;
 import Controller.ToyLanguageException;
@@ -11,6 +11,10 @@ import Types.IntType;
 
 import Values.IntValue;
 import Values.Value;
+import javafx.util.Pair;
+
+import java.util.List;
+
 public class ReleaseVarStmt implements IStmt {
     private final String var;
 
@@ -20,7 +24,7 @@ public class ReleaseVarStmt implements IStmt {
     @Override
     public PrgState execute(PrgState state) throws ToyLanguageException {
         MyIDictionary<String, Value> symbolTable = state.getSymTable();
-        MyIToySemaphore<Triplet> semTable = state.getToySemaphoreTable();
+        MyICountSemaphore<Pair<Integer, List<Integer>>> semTable = state.getCountSemaphoreTable();
 
         if(!symbolTable.isDefined(this.var))
             throw new ToyLanguageException("Variable is not in symbol table");
@@ -33,11 +37,12 @@ public class ReleaseVarStmt implements IStmt {
         if(!semTable.exists(foundIndex))
             throw new ToyLanguageException("Index does not exist");
 
-        Triplet triplet = semTable.lookup(foundIndex);
-        if(triplet.second.contains(state.getID()))
-            triplet.second.remove(triplet.second.indexOf(state.getID()));
+        Pair<Integer, List<Integer>> pair = semTable.lookup(foundIndex);
+        if(pair.getValue().contains(state.getID()))
+            pair.getValue().remove(pair.getValue().indexOf(state.getID()));
+        //pair.getValue().remove(state.getId_thread());
 
-        state.setToySemaphoreTable(semTable);
+        state.setCountSemaphoreTable(semTable);
         return null;
     }
 
@@ -52,6 +57,6 @@ public class ReleaseVarStmt implements IStmt {
     }
     @Override
     public String toString() {
-        return "ToyRelease (" + this.var + ')';
+        return "Release (" + this.var + ')';
     }
 }

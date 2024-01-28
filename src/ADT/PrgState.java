@@ -4,11 +4,10 @@ import Controller.StackIsEmptyException;
 import Controller.ToyLanguageException;
 import Stmts.IStmt;
 import Values.Value;
+import javafx.util.Pair;
 
-import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
-import java.net.IDN;
-import java.nio.Buffer;
+import java.util.List;
 
 public class PrgState{
     private int id;
@@ -18,18 +17,18 @@ public class PrgState{
     MyIList<Value> out;
     MyIHeap heap;
     IStmt program;
-    private MyIToySemaphore<Triplet> toySemaphoreTable;
+    private MyICountSemaphore<Pair<Integer, List<Integer>>> countSemaphoreTable;
     private final MyIDictionary<String, BufferedReader> filetable;
        // IStmt originalProgram;
     public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
-            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyIToySemaphore<Triplet> toySemaphoreTable){
+            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl, MyIHeap heap, MyICountSemaphore<Pair<Integer, List<Integer>>> countSemaphoreTable){
         exeStack=stk;
         symTable=symtbl;
         out = ot;
         filetable=filetbl;
         this.heap=heap;
         this.id=1;
-        this.toySemaphoreTable=toySemaphoreTable;
+        this.countSemaphoreTable = countSemaphoreTable;
         //originalProgram=deepCopy(prg);//recreate the entire original prg
         stk.push(prg);
         program = prg;
@@ -43,9 +42,9 @@ public class PrgState{
 
     }
 
-    public MyIToySemaphore<Triplet> getToySemaphoreTable() { return this.toySemaphoreTable; }
+    public MyICountSemaphore<Pair<Integer, List<Integer>>> getCountSemaphoreTable() { return this.countSemaphoreTable; }
 
-    public void setToySemaphoreTable(MyIToySemaphore<Triplet> toySemaphoreTable) {  this.toySemaphoreTable = toySemaphoreTable; }
+    public void setCountSemaphoreTable(MyICountSemaphore<Pair<Integer, List<Integer>>> countSemaphoreTable) {  this.countSemaphoreTable = countSemaphoreTable; }
 
     public int getID(){
         return id;
