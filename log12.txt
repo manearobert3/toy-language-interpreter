@@ -1,1 +1,446 @@
-1
+ID:1
+ExeStack:
+int v 
+(v = 2  ,(int w ,(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w))))))))
+SymTables:
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(v = 2  ,(int w ,(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w))))))))
+SymTables:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+v = 2  
+(int w ,(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w)))))))
+SymTables:
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(int w ,(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w)))))))
+SymTables:
+v --> 2 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+int w 
+(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w))))))
+SymTables:
+v --> 2 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(w = 5  ,(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w))))))
+SymTables:
+v --> 2 
+w --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+w = 5  
+(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w)))))
+SymTables:
+v --> 2 
+w --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(call sum(v * 10 , w),(Print v ,(call product(v, w),Fork(call sum(v, w)))))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+call sum(v * 10 , w)
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(int v ,(v = a + b ,Print v ))
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+int v 
+(v = a + b ,Print v )
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(v = a + b ,Print v )
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+v = a + b 
+Print v 
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Print v 
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+v --> 25 
+Out:
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+return
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+a --> 20 
+b --> 5 
+v --> 25 
+Out:
+25 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(Print v ,(call product(v, w),Fork(call sum(v, w))))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Print v 
+(call product(v, w),Fork(call sum(v, w)))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(call product(v, w),Fork(call sum(v, w)))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+call product(v, w)
+Fork(call sum(v, w))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(int v ,(v = a * b ,Print v ))
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+int v 
+(v = a * b ,Print v )
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+(v = a * b ,Print v )
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+v --> 0 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+v = a * b 
+Print v 
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+v --> 0 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Print v 
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+v --> 10 
+Out:
+25 
+2 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+return
+Fork(call sum(v, w))
+SymTables:
+a --> 2 
+b --> 5 
+v --> 10 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+Fork(call sum(v, w))
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:1
+ExeStack:
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+call sum(v, w)
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(int v ,(v = a + b ,Print v ))
+return
+SymTables:
+a --> 2 
+b --> 5 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+int v 
+(v = a + b ,Print v )
+return
+SymTables:
+a --> 2 
+b --> 5 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(v = a + b ,Print v )
+return
+SymTables:
+a --> 2 
+b --> 5 
+v --> 0 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+v = a + b 
+Print v 
+return
+SymTables:
+a --> 2 
+b --> 5 
+v --> 0 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+Print v 
+return
+SymTables:
+a --> 2 
+b --> 5 
+v --> 7 
+Out:
+25 
+2 
+10 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+return
+SymTables:
+a --> 2 
+b --> 5 
+v --> 7 
+Out:
+25 
+2 
+10 
+7 
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+SymTables:
+v --> 2 
+w --> 5 
+Out:
+25 
+2 
+10 
+7 
+FileTable:
+Heap:
+

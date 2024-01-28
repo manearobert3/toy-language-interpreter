@@ -35,7 +35,7 @@ public class VarDeclStmt implements IStmt{
 //            symtable.put(name,new StringType().defaultValue());
 //        }
         symtable.put(name,type.defaultValue());
-        state.setSymTable(symtable);
+        //state.setSymTable(symtable);
         return null;
     }
 

@@ -1,6 +1,7 @@
 package ADT;
 
 import Controller.StackIsEmptyException;
+import Controller.ToyLanguageException;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -21,14 +22,17 @@ public class MyStack<T> implements MyIStack<T>{
             throw new StackIsEmptyException("The Stack is empty");
         return this.stack.pop();
     }
-
+    @Override
+    public T peek() {
+        return this.stack.peek();
+    }
     @Override
     public void push(T e) {
         this.stack.push(e);
     }
 
     @Override
-    public MyStack<T> deepCopy() {
+    public MyStack<T> deepCopy() throws ToyLanguageException {
         MyStack<T> newStack = new MyStack<>();
 
 

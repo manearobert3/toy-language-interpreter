@@ -33,7 +33,7 @@ public class NewHeapStmt implements IStmt{
         Integer id = heap.add(toEval);
         symTable.put(varName, new RefValue(id,refValue.getLocationType()));
         state.setHeap(heap);
-        state.setSymTable(symTable);
+       // state.setSymTable(symTable);
         return null;
 
 

@@ -238,7 +238,7 @@ public class SecondWindowController {
                     ExeStackListView.getItems().add(stmt.toString());
                 }
             }
-        }catch (StackIsEmptyException e) {
+        }catch ( ToyLanguageException e) {
             Alert alert = new Alert(Alert.AlertType.WARNING, e.getMessage()); alert.showAndWait();
         }
     }

@@ -14,23 +14,40 @@ public class PrgState{
     private int id=0;
     private static int incID=0;
     MyIStack<IStmt> exeStack;
-    MyIDictionary<String, Value> symTable;
+    //MyIDictionary<String, Value> symTable;
+    MyIStack<MyIDictionary<String,Value>> symTables;
     MyIList<Value> out;
     MyIHeap heap;
     IStmt program;
+    MyIProcedureTable procedureTable;
     private final MyIDictionary<String, BufferedReader> filetable;
-       // IStmt originalProgram;
+       IStmt originalProgram;
     public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
-            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap){
+            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyIProcedureTable procedureTable){
         exeStack=stk;
-        symTable=symtbl;
+        symTables=new MySymTablesStack();
+        this.symTables.push(symtbl);
+        this.procedureTable=procedureTable;
         out = ot;
         filetable=filetbl;
         this.heap=heap;
         this.id=incrementID();
-        //originalProgram=deepCopy(prg);//recreate the entire original prg
+        originalProgram=prg.deepCopy();//recreate the entire original prg
         stk.push(prg);
         program = prg;
+    }
+
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
+            ot, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyIProcedureTable procedureTable){
+        exeStack=stk;
+        symTables=new MySymTablesStack();
+        this.symTables.push(symtbl);
+        this.procedureTable=procedureTable;
+        out = ot;
+        filetable=filetbl;
+        this.heap=heap;
+        this.id=incrementID();
+
     }
     public IStmt getStmt(){
         return program;
@@ -67,13 +84,21 @@ public class PrgState{
         this.exeStack = exeStack;
     }
 
+//    public MyIDictionary<String, Value> getSymTable() {
+//        return symTable;
+//    }
+
     public MyIDictionary<String, Value> getSymTable() {
-        return symTable;
+        return symTables.peek();
     }
 
-    public void setSymTable(MyIDictionary<String, Value> symTable) {
-        this.symTable = symTable;
+        public MyIStack<MyIDictionary<String, Value>> getSymTables() {
+        return symTables;
     }
+
+//    public void setSymTable(MyIDictionary<String, Value> symTable) {
+//        this.symTable = symTable;
+//    }
 
     public MyIList<Value> getOut() {
         return out;
@@ -86,7 +111,12 @@ public class PrgState{
     public void setHeap(MyIHeap heap) {
         this.heap = heap;
     }
-
+    public void setProcedureTable(MyIProcedureTable procedureTable){
+        this.procedureTable=procedureTable;
+    }
+    public MyIProcedureTable getProcedureTable() {
+        return procedureTable;
+    }
 
     //    @Override
 //    public String toString() {
@@ -100,17 +130,23 @@ public class PrgState{
 @Override
 public String toString() {
     StringBuilder result = new StringBuilder();
-    result.append("ID:").append(this.id).append("\n");
-    result.append("ExeStack:\n");
-    result.append(exeStackToString());
-    result.append("SymTable:\n");
-    result.append(symTableToString());
-    result.append("Out:\n");
-    result.append(outToString());
-    result.append("FileTable:\n");
-    result.append(fileTableToString());
-    result.append("Heap:\n");
-    result.append(heapToString());
+   // try {
+        result.append("ID:").append(this.id).append("\n");
+        result.append("ExeStack:\n");
+        result.append(exeStackToString());
+        result.append("SymTables:\n");
+
+        result.append(symTableToString());
+        result.append("Out:\n");
+        result.append(outToString());
+        result.append("FileTable:\n");
+        result.append(fileTableToString());
+        result.append("Heap:\n");
+        result.append(heapToString());
+    //}
+    //catch(ToyLanguageException e){
+   //    System.out.println( e.getMessage());
+//}
 
     return result.toString();
 }
@@ -122,6 +158,22 @@ public String toString() {
         }
         return result.toString();
     }
+
+//    public String symTablesToString() throws ToyLanguageException {
+//        StringBuilder returnString = new StringBuilder();
+//        if (symTables.isEmpty())
+//            return returnString.toString() + '\n';
+//
+//        MyStack<MyIDictionary<String, Value>> stackCopy = new MyStack<>();
+//        while (!symTables.isEmpty()) {
+//            if (symTables.peek() instanceof IStmt)
+//                returnString.append((symTables.peek()).toString()).append('\n');
+//            else
+//                returnString.append(symTables.peek().toString()).append('\n');
+//            stackCopy.push(symTables.pop());
+//        }
+//        return returnString.toString();
+//    }
     public String fileTableToString() {
         StringBuilder result = new StringBuilder();
         for (String filename : filetable.getMap().keySet()) {
@@ -131,6 +183,7 @@ public String toString() {
     }
     public String symTableToString() {
         StringBuilder result = new StringBuilder();
+        MyIDictionary<String, Value>symTable=symTables.peek();
         for (String var : symTable.getMap().keySet()) {
             try {
                 result.append(var).append(" --> ").append(symTable.lookUp(var)).append("\n");
@@ -153,6 +206,14 @@ public String toString() {
             }
         }
         return result.toString();
+    }
+    public String procedureTableToString() throws ToyLanguageException {
+        StringBuilder procedureTableStringBuilder = new StringBuilder();
+        for (String key: procedureTable.getMap().keySet()) {
+            procedureTableStringBuilder.append(String.format("%s - %s: %s\n", key, procedureTable.lookUp(key).getKey(), procedureTable.lookUp(key).getValue()));
+        }
+        procedureTableStringBuilder.append("\n");
+        return procedureTableStringBuilder.toString();
     }
 
     public String outToString() {

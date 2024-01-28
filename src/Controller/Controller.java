@@ -114,13 +114,13 @@ public class Controller {
 
     public void oneStepForAllPrg(List<PrgState> prgList) throws InterruptedException,ToyLanguageException {
         // Before execution, print the PrgState List into the log file
-        prgList.forEach(prg -> {
-            try {
-                repo.logPrgStateExec(prg);
-            } catch (IOException | ToyLanguageException e) {
-                e.getMessage();
-            }
-        });
+//        prgList.forEach(prg -> {
+//            try {
+//                repo.logPrgStateExec(prg);
+//            } catch (IOException | ToyLanguageException e) {
+//                e.getMessage();
+//            }
+//        });
 
         List<Callable<PrgState>> callList = prgList.stream()
                 .map((PrgState p) -> (Callable<PrgState>) (() -> {
@@ -142,7 +142,7 @@ public class Controller {
                 .collect(Collectors.toList());
 
         prgList.addAll(newPrgList);
-        conservativeGarbageCollector(prgList);
+        //conservativeGarbageCollector(prgList);
         prgList.forEach(p -> {
             try {
                 repo.logPrgStateExec(p);

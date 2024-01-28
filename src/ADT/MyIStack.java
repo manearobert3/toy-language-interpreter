@@ -8,8 +8,9 @@ import java.util.List;
 public interface MyIStack<T> {
     T pop() throws StackIsEmptyException;
     void push(T e);
-    MyStack<T>  deepCopy();
+    MyStack<T>  deepCopy() throws ToyLanguageException;
     boolean isEmpty();
 
     List<T> getReversed();
+     T peek();
 }

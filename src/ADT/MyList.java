@@ -1,5 +1,7 @@
 package ADT;
 
+import Controller.ToyLanguageException;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -20,6 +22,15 @@ public class MyList<T> implements MyIList<T> {
         output.clear();
     }
 
+    public T get(int index) throws ToyLanguageException {
+        if (index < 0 || index >= output.size())
+            throw new ToyLanguageException("Index out of bounds!");
+        try {
+            return output.get(index);
+        } catch (Exception exception) {
+            throw new ToyLanguageException(exception.getMessage());
+        }
+    }
     @Override
     public String toString() {
         return "MyList{" +
@@ -34,4 +45,8 @@ public class MyList<T> implements MyIList<T> {
     public void setOutput(List<T> output) {
         this.output = output;
     }
+    public int size() {
+        return output.size();
+    }
+
 }

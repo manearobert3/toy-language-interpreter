@@ -37,7 +37,7 @@ public class WriteHeapStmt implements IStmt{
 
         heap.update(refValue.getAdress(),toEval);
         state.setHeap(heap);
-        state.setSymTable(symTable);
+//        state.setSymTable(symTable);
         return null;
 
 
