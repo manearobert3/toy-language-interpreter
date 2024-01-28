@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MyDictionary<K,V> implements MyIDictionary<K,V>{
-    private Map<K,V> map;
+    Map<K,V> map;
 
     public MyDictionary() {
         map = new HashMap<K,V>();
@@ -23,13 +23,20 @@ public class MyDictionary<K,V> implements MyIDictionary<K,V>{
         map.remove(k);
     }
     @Override
-    public void put(K k, V v) {
+    public void put(K k, V v) throws ToyLanguageException {
         map.put(k,v);
     }
 
     @Override
     public boolean isDefined(K k) {
         return map.get(k) != null;
+    }
+
+    @Override
+    public void update(K key, V value) throws ToyLanguageException {
+        if (!isDefined(key))
+            throw new ToyLanguageException(key + " is not defined.");
+        this.map.put(key, value);
     }
 
     @Override

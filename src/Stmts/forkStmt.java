@@ -19,13 +19,14 @@ public class forkStmt implements IStmt{
     @Override
     public PrgState execute(PrgState state) throws ToyLanguageException {
         MyIStack<IStmt> newStack = new MyStack<>();
+        newStack.push(statement);
         MyIDictionary<String, Value> newSymTable = new MyDictionary<>();
         for (String key : state.getSymTable().getMap().keySet()){
             Value originalValue = state.getSymTable().lookUp(key);
             Value copiedValue = originalValue.deepCopy();
             newSymTable.put(key,copiedValue);
         }
-        return new PrgState(newStack,newSymTable,state.getOut(),statement,state.getFileTable(),state.getHeap());
+        return new PrgState(newStack,newSymTable,state.getOut(),state.getFileTable(),state.getHeap(),state.getLatchTable());
 
     }
     @Override

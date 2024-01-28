@@ -18,19 +18,36 @@ public class PrgState{
     MyIList<Value> out;
     MyIHeap heap;
     IStmt program;
+    MyILatchTable latchTable;
+    private IStmt originalProgram;
     private final MyIDictionary<String, BufferedReader> filetable;
        // IStmt originalProgram;
     public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
-            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap){
+            ot, IStmt prg, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyILatchTable latchTable){
         exeStack=stk;
         symTable=symtbl;
         out = ot;
         filetable=filetbl;
         this.heap=heap;
-        this.id=incrementID();
-        //originalProgram=deepCopy(prg);//recreate the entire original prg
-        stk.push(prg);
+        this.latchTable=latchTable;
+        originalProgram=prg.deepCopy();//recreate the entire original prg
+        stk.push(originalProgram);
         program = prg;
+        this.id=incrementID();
+
+    }
+
+    public PrgState(MyIStack<IStmt> stk, MyIDictionary<String,Value> symtbl, MyIList<Value>
+            ot, MyIDictionary<String, BufferedReader> filetbl,MyIHeap heap,MyILatchTable latchTable){
+        exeStack=stk;
+        symTable=symtbl;
+        out = ot;
+        filetable=filetbl;
+        this.heap=heap;
+        this.latchTable=latchTable;
+        this.id=incrementID();
+
+
     }
     public IStmt getStmt(){
         return program;
@@ -63,6 +80,12 @@ public class PrgState{
         return heap;
     }
 
+    public void setLatchTable(MyILatchTable latchTable){
+        this.latchTable=latchTable;
+    }
+    public MyILatchTable getLatchTable(){
+        return this.latchTable;
+    }
     public void setExeStack(MyIStack<IStmt> exeStack) {
         this.exeStack = exeStack;
     }

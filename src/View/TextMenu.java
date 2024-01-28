@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class TextMenu {
         private MyIDictionary<String, Command> commands;
         public TextMenu(){ commands=new MyDictionary<>(); }
-        public void addCommand(Command c){ commands.put(c.getKey(),c);}
+        public void addCommand(Command c) throws ToyLanguageException { commands.put(c.getKey(),c);}
         private void printMenu(){
             for(Command com : commands.getMap().values()){
                 String line=String.format("%4s : %s", com.getKey(), com.getDescription());
