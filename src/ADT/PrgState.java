@@ -31,7 +31,7 @@ public class PrgState{
         this.heap=heap;
         this.latchTable=latchTable;
         originalProgram=prg.deepCopy();//recreate the entire original prg
-        stk.push(originalProgram);
+        stk.push(prg);
         program = prg;
         this.id=incrementID();
 

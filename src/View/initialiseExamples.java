@@ -370,6 +370,61 @@ public class initialiseExamples {
                 listOfErrors.add(e.getMessage());
                 System.out.println(lastExampleRun);
         }
+            IStmt example17 = new CompStmt(
+                    new VarDeclStmt("a", new RefType(new IntType())),
+                    new CompStmt(
+                            new VarDeclStmt("b", new RefType(new IntType())),
+                            new CompStmt(
+                                    new VarDeclStmt("v", new IntType()),
+                                    new CompStmt(
+                                            new NewHeapStmt("a", new ValueExp(new IntValue(0))),
+                                            new CompStmt(
+                                                    new NewHeapStmt("b", new ValueExp(new IntValue(0))),
+                                                    new CompStmt(
+                                                            new WriteHeapStmt("a", new ValueExp(new IntValue(1))),
+                                                            new CompStmt(
+                                                                    new WriteHeapStmt("b", new ValueExp(new IntValue(2))),
+                                                                    new CompStmt(
+                                                                            new ConditionalAssignment("v", new RelationalExp("<", new ReadHeapExp(new VarExp("a")), new ReadHeapExp(new VarExp("b"))), new ValueExp(new IntValue(100)), new ValueExp(new IntValue(200)))
+                                                                            ,
+                                                                            new CompStmt(
+                                                                                    new PrintStmt(new VarExp("v")),
+                                                                                    new CompStmt(
+
+                                                                                            new ConditionalAssignment("v",
+                                                                                                    new RelationalExp(">",
+                                                                                                            new ArithExp('-',
+                                                                                                                    new ReadHeapExp(new VarExp("b")),
+                                                                                                                    new ValueExp(new IntValue(2))
+                                                                                                            ),
+                                                                                                            new ReadHeapExp(new VarExp("a"))
+                                                                                                    ),
+                                                                                                    new ValueExp(new IntValue(100)),
+                                                                                                    new ValueExp(new IntValue(200))
+                                                                                            )
+                                                                                            ,
+                                                                                            new PrintStmt(new VarExp("v"))))
+                                                                    )
+                                                            )
+                                                    )
+                                            )
+                                    )
+                            )
+                    )
+            );
+
+            try {
+                example17.typecheck(new MyDictionary<>());
+                PrgState prg17 = new PrgState(new MyStack<>(), new MyDictionary<>(), new MyList<>(), example17, new MyDictionary<>(), new MyHeap(),new MyLatchTable());
+                IRepository repo17 = new Repository(prg17, "log17.txt");
+                Controller ctr17 = new Controller(repo17, true);
+                listOfExamples.add(example17);
+                listOfControllers.add(ctr17);
+            } catch (ToyLanguageException e) {
+                System.out.println(e.getMessage());
+                listOfErrors.add(e.getMessage());
+                System.out.println(lastExampleRun);
+            }
 
 
         }

@@ -1,0 +1,634 @@
+ID:2
+ExeStack:
+(Reference Type(int)  a ,(Reference Type(int)  b ,(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+Reference Type(int)  a 
+(Reference Type(int)  b ,(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+Reference Type(int)  a 
+(Reference Type(int)  b ,(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))))
+SymTable:
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(Reference Type(int)  b ,(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))))
+SymTable:
+a --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(Reference Type(int)  b ,(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))))
+SymTable:
+a --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+Reference Type(int)  b 
+(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))))
+SymTable:
+a --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+Reference Type(int)  b 
+(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))))
+SymTable:
+a --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(int v ,(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+int v 
+(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+int v 
+(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(New(a,0 ),(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+New(a,0 )
+(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+New(a,0 )
+(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))
+SymTable:
+a --> Reference Value(0, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+
+ID:2
+ExeStack:
+(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+
+ID:2
+ExeStack:
+(New(b,0 ),(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+
+ID:2
+ExeStack:
+New(b,0 )
+(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+
+ID:2
+ExeStack:
+New(b,0 )
+(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(0, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+
+ID:2
+ExeStack:
+(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+2 --> 0 
+
+ID:2
+ExeStack:
+(HeapStmt(a,1 );,(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+2 --> 0 
+
+ID:2
+ExeStack:
+HeapStmt(a,1 );
+(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+2 --> 0 
+
+ID:2
+ExeStack:
+HeapStmt(a,1 );
+(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 0 
+2 --> 0 
+
+ID:2
+ExeStack:
+(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 0 
+
+ID:2
+ExeStack:
+(HeapStmt(b,2 );,(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 0 
+
+ID:2
+ExeStack:
+HeapStmt(b,2 );
+(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 0 
+
+ID:2
+ExeStack:
+HeapStmt(b,2 );
+(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 0 
+
+ID:2
+ExeStack:
+(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+(v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 ,(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)) ? 100  : 200 
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+if (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)): v = 100  else v = 200  
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+if (RelationalExpression(ReadHeapExp(a) < ReadHeapExp(b)): v = 100  else v = 200  
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = 100  
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = 100  
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 0 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+(Print v ,(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v ))
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+Print v 
+(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+Print v 
+(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+(v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 ,Print v )
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)) ? 100  : 200 
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+if (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)): v = 100  else v = 200  
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+if (RelationalExpression(ReadHeapExp(b) - 2  > ReadHeapExp(a)): v = 100  else v = 200  
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = 200  
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+v = 200  
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 100 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 200 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+Print v 
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 200 
+Out:
+100 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
+ID:2
+ExeStack:
+SymTable:
+a --> Reference Value(1, int)
+b --> Reference Value(2, int)
+v --> 200 
+Out:
+100 
+200 
+FileTable:
+Heap:
+1 --> 1 
+2 --> 2 
+
