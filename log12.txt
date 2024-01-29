@@ -1,6 +1,6 @@
 ID:1
 ExeStack:
-(Reference Type(int)  v1 ,(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))))))
+(Reference Type(int)  v1 ,(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))))))
 SymTable:
 Out:
 FileTable:
@@ -9,7 +9,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v1 
-(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))))
+(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))))
 SymTable:
 Out:
 FileTable:
@@ -18,7 +18,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v1 
-(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))))
+(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))))
 SymTable:
 Out:
 FileTable:
@@ -26,7 +26,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))))
+(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 Out:
@@ -35,7 +35,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))))
+(Reference Type(int)  v2 ,(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 Out:
@@ -45,7 +45,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v2 
-(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))))
+(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 Out:
@@ -55,7 +55,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v2 
-(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))))
+(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 Out:
@@ -64,7 +64,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))))
+(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -74,7 +74,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))))
+(Reference Type(int)  v3 ,(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -85,7 +85,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v3 
-(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))
+(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -96,7 +96,7 @@ Heap:
 ID:1
 ExeStack:
 Reference Type(int)  v3 
-(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))
+(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -106,7 +106,7 @@ Heap:
 
 ID:1
 ExeStack:
-(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))
+(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -117,7 +117,7 @@ Heap:
 
 ID:1
 ExeStack:
-(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))))
+(int cnt ,(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -129,7 +129,7 @@ Heap:
 ID:1
 ExeStack:
 int cnt 
-(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))
+(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -141,7 +141,7 @@ Heap:
 ID:1
 ExeStack:
 int cnt 
-(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))
+(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))
 SymTable:
 v1 --> Reference Value(0, int)
 v2 --> Reference Value(0, int)
@@ -152,7 +152,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))
+(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(0, int)
@@ -164,7 +164,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))))
+(New(v1,2 ),(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(0, int)
@@ -177,7 +177,7 @@ Heap:
 ID:1
 ExeStack:
 New(v1,2 )
-(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))
+(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(0, int)
@@ -190,7 +190,7 @@ Heap:
 ID:1
 ExeStack:
 New(v1,2 )
-(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))
+(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(0, int)
@@ -202,7 +202,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))
+(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -215,7 +215,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))))
+(New(v2,3 ),(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -229,7 +229,7 @@ Heap:
 ID:1
 ExeStack:
 New(v2,3 )
-(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))
+(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -243,7 +243,7 @@ Heap:
 ID:1
 ExeStack:
 New(v2,3 )
-(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))
+(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -256,7 +256,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))
+(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -270,7 +270,7 @@ Heap:
 
 ID:1
 ExeStack:
-(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))))
+(New(v3,4 ),(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -285,7 +285,7 @@ Heap:
 ID:1
 ExeStack:
 New(v3,4 )
-(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))
+(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -300,7 +300,7 @@ Heap:
 ID:1
 ExeStack:
 New(v3,4 )
-(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))
+(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -314,7 +314,7 @@ Heap:
 
 ID:1
 ExeStack:
-(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))
+(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -329,7 +329,7 @@ Heap:
 
 ID:1
 ExeStack:
-(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))))
+(NewLatch(cnt, ReadHeapExp(v2)),(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -345,7 +345,7 @@ Heap:
 ID:1
 ExeStack:
 NewLatch(cnt, ReadHeapExp(v2))
-(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))
+(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -361,7 +361,7 @@ Heap:
 ID:1
 ExeStack:
 NewLatch(cnt, ReadHeapExp(v2))
-(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))
+(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))
 SymTable:
 cnt --> 0 
 v1 --> Reference Value(1, int)
@@ -376,7 +376,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))
+(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -391,7 +391,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))))
+(Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))),(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -406,8 +406,8 @@ Heap:
 
 ID:1
 ExeStack:
-Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)))
-(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))
+Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)))
+(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -422,8 +422,8 @@ Heap:
 
 ID:1
 ExeStack:
-Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)))
-(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))
+Fork((HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)))
+(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -438,7 +438,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))
+(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -453,7 +453,7 @@ Heap:
 
 ID:2
 ExeStack:
-(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -468,7 +468,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))))
+(Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))),(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -483,7 +483,7 @@ Heap:
 
 ID:2
 ExeStack:
-(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4))
+(HeapStmt(v1,ReadHeapExp(v1) * 10 );,(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -498,40 +498,8 @@ Heap:
 
 ID:1
 ExeStack:
-Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)))
-(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))
-SymTable:
-cnt --> 1 
-v1 --> Reference Value(1, int)
-v2 --> Reference Value(2, int)
-v3 --> Reference Value(3, int)
-Out:
-FileTable:
-Heap:
-1 --> 2 
-2 --> 3 
-3 --> 4 
-
-ID:2
-ExeStack:
-HeapStmt(v1,ReadHeapExp(v1) * 10 );
-(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)
-SymTable:
-cnt --> 1 
-v1 --> Reference Value(1, int)
-v2 --> Reference Value(2, int)
-v3 --> Reference Value(3, int)
-Out:
-FileTable:
-Heap:
-1 --> 2 
-2 --> 3 
-3 --> 4 
-
-ID:1
-ExeStack:
-Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)))
-(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))
+Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)))
+(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -547,7 +515,7 @@ Heap:
 ID:2
 ExeStack:
 HeapStmt(v1,ReadHeapExp(v1) * 10 );
-(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)
+(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -562,7 +530,39 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))
+Fork((HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)))
+(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+v2 --> Reference Value(2, int)
+v3 --> Reference Value(3, int)
+Out:
+FileTable:
+Heap:
+1 --> 2 
+2 --> 3 
+3 --> 4 
+
+ID:2
+ExeStack:
+HeapStmt(v1,ReadHeapExp(v1) * 10 );
+(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+v2 --> Reference Value(2, int)
+v3 --> Reference Value(3, int)
+Out:
+FileTable:
+Heap:
+1 --> 2 
+2 --> 3 
+3 --> 4 
+
+ID:1
+ExeStack:
+(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -577,7 +577,7 @@ Heap:
 
 ID:2
 ExeStack:
-(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)
+(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -592,7 +592,7 @@ Heap:
 
 ID:3
 ExeStack:
-(HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))
+(HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -607,7 +607,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))))
+(Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))),(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -622,7 +622,7 @@ Heap:
 
 ID:2
 ExeStack:
-(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@100227c4)
+(Print ReadHeapExp(v1) ,Stmts.CountDownStmt@3cd439ad)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -637,7 +637,7 @@ Heap:
 
 ID:3
 ExeStack:
-(HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93))
+(HeapStmt(v2,ReadHeapExp(v2) * 10 );,(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -652,8 +652,8 @@ Heap:
 
 ID:1
 ExeStack:
-Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)))
-(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))
+Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)))
+(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -669,7 +669,7 @@ Heap:
 ID:2
 ExeStack:
 Print ReadHeapExp(v1) 
-Stmts.CountDownStmt@100227c4
+Stmts.CountDownStmt@3cd439ad
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -685,7 +685,7 @@ Heap:
 ID:3
 ExeStack:
 HeapStmt(v2,ReadHeapExp(v2) * 10 );
-(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)
+(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -700,8 +700,8 @@ Heap:
 
 ID:1
 ExeStack:
-Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)))
-(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))
+Fork((HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)))
+(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -717,7 +717,7 @@ Heap:
 ID:2
 ExeStack:
 Print ReadHeapExp(v1) 
-Stmts.CountDownStmt@100227c4
+Stmts.CountDownStmt@3cd439ad
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -733,7 +733,7 @@ Heap:
 ID:3
 ExeStack:
 HeapStmt(v2,ReadHeapExp(v2) * 10 );
-(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)
+(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -748,7 +748,7 @@ Heap:
 
 ID:1
 ExeStack:
-(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))
+(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -764,7 +764,7 @@ Heap:
 
 ID:2
 ExeStack:
-Stmts.CountDownStmt@100227c4
+Stmts.CountDownStmt@3cd439ad
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -780,7 +780,7 @@ Heap:
 
 ID:3
 ExeStack:
-(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)
+(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -796,7 +796,7 @@ Heap:
 
 ID:4
 ExeStack:
-(HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))
+(HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -812,7 +812,7 @@ Heap:
 
 ID:1
 ExeStack:
-(await(cnt),(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  )))
+(await(cnt),(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  )))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -828,7 +828,7 @@ Heap:
 
 ID:2
 ExeStack:
-Stmts.CountDownStmt@100227c4
+Stmts.CountDownStmt@3cd439ad
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -844,7 +844,7 @@ Heap:
 
 ID:3
 ExeStack:
-(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@2c582d93)
+(Print ReadHeapExp(v2) ,Stmts.CountDownStmt@3437690)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -860,7 +860,7 @@ Heap:
 
 ID:4
 ExeStack:
-(HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae))
+(HeapStmt(v3,ReadHeapExp(v3) * 10 );,(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -877,7 +877,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -911,7 +911,7 @@ Heap:
 ID:3
 ExeStack:
 Print ReadHeapExp(v2) 
-Stmts.CountDownStmt@2c582d93
+Stmts.CountDownStmt@3437690
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -929,7 +929,7 @@ Heap:
 ID:4
 ExeStack:
 HeapStmt(v3,ReadHeapExp(v3) * 10 );
-(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)
+(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -947,7 +947,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -965,7 +965,7 @@ Heap:
 ID:3
 ExeStack:
 Print ReadHeapExp(v2) 
-Stmts.CountDownStmt@2c582d93
+Stmts.CountDownStmt@3437690
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -983,7 +983,7 @@ Heap:
 ID:4
 ExeStack:
 HeapStmt(v3,ReadHeapExp(v3) * 10 );
-(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)
+(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1001,7 +1001,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1019,7 +1019,7 @@ Heap:
 
 ID:3
 ExeStack:
-Stmts.CountDownStmt@2c582d93
+Stmts.CountDownStmt@3437690
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1037,7 +1037,7 @@ Heap:
 
 ID:4
 ExeStack:
-(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)
+(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1056,7 +1056,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1074,7 +1074,7 @@ Heap:
 
 ID:3
 ExeStack:
-Stmts.CountDownStmt@2c582d93
+Stmts.CountDownStmt@3437690
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1092,7 +1092,7 @@ Heap:
 
 ID:4
 ExeStack:
-(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@1459a4ae)
+(Print ReadHeapExp(v3) ,Stmts.CountDownStmt@62714560)
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1111,7 +1111,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1149,7 +1149,7 @@ Heap:
 ID:4
 ExeStack:
 Print ReadHeapExp(v3) 
-Stmts.CountDownStmt@1459a4ae
+Stmts.CountDownStmt@62714560
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1169,7 +1169,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1189,7 +1189,7 @@ Heap:
 ID:4
 ExeStack:
 Print ReadHeapExp(v3) 
-Stmts.CountDownStmt@1459a4ae
+Stmts.CountDownStmt@62714560
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1209,7 +1209,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1229,7 +1229,7 @@ Heap:
 
 ID:4
 ExeStack:
-Stmts.CountDownStmt@1459a4ae
+Stmts.CountDownStmt@62714560
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1250,7 +1250,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1270,7 +1270,7 @@ Heap:
 
 ID:4
 ExeStack:
-Stmts.CountDownStmt@1459a4ae
+Stmts.CountDownStmt@62714560
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1291,7 +1291,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1333,7 +1333,7 @@ Heap:
 ID:1
 ExeStack:
 await(cnt)
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1354,7 +1354,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1375,7 +1375,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Print 100  ,(Stmts.CountDownStmt@583e432f,Print 100  ))
+(Print 100  ,(Stmts.CountDownStmt@b674a83,Print 100  ))
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1397,7 +1397,7 @@ Heap:
 ID:1
 ExeStack:
 Print 100  
-(Stmts.CountDownStmt@583e432f,Print 100  )
+(Stmts.CountDownStmt@b674a83,Print 100  )
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1419,7 +1419,7 @@ Heap:
 ID:1
 ExeStack:
 Print 100  
-(Stmts.CountDownStmt@583e432f,Print 100  )
+(Stmts.CountDownStmt@b674a83,Print 100  )
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1440,29 +1440,7 @@ Heap:
 
 ID:1
 ExeStack:
-(Stmts.CountDownStmt@583e432f,Print 100  )
-SymTable:
-cnt --> 1 
-v1 --> Reference Value(1, int)
-v2 --> Reference Value(2, int)
-v3 --> Reference Value(3, int)
-Out:
-20 
-2 
-30 
-3 
-40 
-4 
-100 
-FileTable:
-Heap:
-1 --> 20 
-2 --> 30 
-3 --> 40 
-
-ID:1
-ExeStack:
-(Stmts.CountDownStmt@583e432f,Print 100  )
+(Stmts.CountDownStmt@b674a83,Print 100  )
 SymTable:
 cnt --> 1 
 v1 --> Reference Value(1, int)
@@ -1484,7 +1462,29 @@ Heap:
 
 ID:1
 ExeStack:
-Stmts.CountDownStmt@583e432f
+(Stmts.CountDownStmt@b674a83,Print 100  )
+SymTable:
+cnt --> 1 
+v1 --> Reference Value(1, int)
+v2 --> Reference Value(2, int)
+v3 --> Reference Value(3, int)
+Out:
+20 
+2 
+30 
+3 
+40 
+4 
+100 
+FileTable:
+Heap:
+1 --> 20 
+2 --> 30 
+3 --> 40 
+
+ID:1
+ExeStack:
+Stmts.CountDownStmt@b674a83
 Print 100  
 SymTable:
 cnt --> 1 
@@ -1507,7 +1507,7 @@ Heap:
 
 ID:1
 ExeStack:
-Stmts.CountDownStmt@583e432f
+Stmts.CountDownStmt@b674a83
 Print 100  
 SymTable:
 cnt --> 1 

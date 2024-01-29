@@ -32,7 +32,7 @@ public class NewLatchStmt implements IStmt{
             throw new ToyLanguageException(String.format("Variable %s is no declared",variableName));
         if(!variableValue.getType().equals(new IntType()))
             throw new ToyLanguageException(String.format("Variable %s needs to be of type int",variableName));
-        state.getSymTable().put(variableName,new IntValue(latchLoc));
+        state.getSymTable().update(variableName,new IntValue(latchLoc));
         return null;
     }
 
